@@ -1,0 +1,22 @@
+{
+  "name": "proyectouniversidaddeguatemala_backend",
+  "version": "1.0.0",
+  "description": "Proyecto que consiste en un formulario con múltiples validaciones, con la finalidad de registrar estudiantes a un evento de poesía, en el cual también podrá visualizar un reporte de todos los concursantes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Samuel Escobar",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "helmet": "^5.1.1",
+    "mongoose": "^6.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
