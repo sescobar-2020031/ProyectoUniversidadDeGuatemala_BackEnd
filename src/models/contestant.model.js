@@ -9,9 +9,11 @@ const contestantSchema = mongoose.Schema({
     gender: String,
     phone: String,
     birthDate: Date,
+    age: Number,
     studentCareer: String,
     poetryGenre: String,
-    enrollmentDate: Date
+    enrollmentDate: Date,
+    declamationDate: Date
 });
 
 module.exports = mongoose.model('Contestant', contestantSchema);
